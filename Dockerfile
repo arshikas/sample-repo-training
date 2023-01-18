@@ -15,7 +15,6 @@ RUN . /app/venv/bin/activate
 RUN apt install -y libgl1-mesa-glx
 RUN apt install -y ffmpeg
 RUN pip install --upgrade pip
-RUN pip install -r requirements.txt
 RUN python -m pip install --upgrade pip
 RUN pip install torch==1.12.1+cu116 torchvision==0.13.1+cu116 --extra-index-url "https://download.pytorch.org/whl/cu116"
 RUN pip install transformers==4.25.1
