@@ -29,7 +29,7 @@ RUN pip install protobuf==3.20.1
 RUN pip install wandb==0.13.6
 RUN pip install pyre-extensions==0.0.23
 RUN pip install -U -I --no-deps https://github.com/C43H66N12O12S2/stable-diffusion-webui/releases/download/f/xformers-0.0.14.dev0-cp310-cp310-win_amd64.whl
-RUN pip install "xformers-0.0.15.dev0+affe4da.d20221212-cp38-cp38-win_amd64.whl" --force-reinstall
+#RUN pip install "xformers-0.0.15.dev0+affe4da.d20221212-cp38-cp38-win_amd64.whl" --force-reinstall
 RUN pip install pytorch-lightning==1.6.5
 RUN pip install OmegaConf==2.2.3
 RUN pip install numpy==1.23.5
